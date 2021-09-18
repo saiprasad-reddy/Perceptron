@@ -1,5 +1,5 @@
 from utils.model import Perceptron
-from utils.all_utils import prepare_data
+from utils.all_utils import prepare_data, save_plot, save_model
 import pandas as pd
 import numpy as np
 
@@ -20,3 +20,6 @@ epochs = 10
 model_AND = Perceptron(eta=eta, epochs=epochs)
 model_AND.fit(X, y)
 loss = model_AND.total_loss
+
+save_model(model_AND, filename="AND.model")
+save_plot(df, "AND.png", model_AND)

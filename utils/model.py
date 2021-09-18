@@ -29,7 +29,7 @@ class Perceptron:
       print("##"*10)
   
   def predict(self, X):
-    X_with_bais = np.c_[self.X,-np.ones((len(self.X), 1))]
+    X_with_bais = np.c_ [X,-np.ones((len(X), 1))]
     return self.activationfunction(X_with_bais, self.weights)
   
   def total_loss(self):

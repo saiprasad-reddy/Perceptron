@@ -18,6 +18,11 @@ def save_model(model, filename):
   joblib.dump(model, filepath)
 
 def save_plot(df, file_name, model):
+  """
+  :param df: its a dataframe
+  :param file_name: its path to save plot
+  :param model: trained model
+  """
   def _create_base_plot(df):
     df.plot(kind="scatter", x="x1", y="x2", c="y", s=100, cmap="winter")
     plt.axhline(y=0, color="black", linestyle="--", linewidth=1)

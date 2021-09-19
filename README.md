@@ -1,7 +1,8 @@
 # Perceptron
 
-#commands used -
+# commands used -
 
-'''bash
+''' bash
 git add . && commit -m "docstring updated" && git push origin main
+
 '''

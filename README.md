@@ -13,4 +13,4 @@ cp Research\ notebooks/demo.ipynb .
 [Git Handbook](https://guides.github.com/introduction/git-handbook)
 
 ## Add Imange
-![Sample Image](plotys/AND.png)
+![Sample Image](plots/AND.png)

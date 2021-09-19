@@ -14,3 +14,11 @@ cp Research\ notebooks/demo.ipynb .
 
 ## Add Imange
 ![Sample Image](plots/AND.png)
+
+## AND Dataset
+x1 | x2 | y
+-|-|-
+0|0|0
+0|1|0
+1|0|0
+1|1|1
